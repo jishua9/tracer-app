@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(247, 173, 36);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(backimg.jpg);
+}
+
+.heading{
+    display: block;
+    background-color: rgba(0, 0, 0, 0.123);
+
+}
+
+.centre{
+    display: block;
+    background-color: rgb(230, 230, 230);
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 4px 3px 8px 1px #969696;
+    width: 1;
+    padding: 8px 8px 8px 8px;
+    text-align: center;
+}
+
+.form-control-group{
+    margin: 2px;
+}
+.data-capture-buttons{
+    margin-bottom: 15px;
+}
