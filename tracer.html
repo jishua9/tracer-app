@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Tracer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="centre">
+        <img src="Sapowernetworkslogo.png" alt="SApowernetworks">
+        <div class="heading">
+    <h1>Covid Tracer</h1>
+    <p>Please check into this location</p>
+    </div>
+    <form name="xyz_form" action="proces.php" method="get">
+        <section class="border-bottom">
+    <div class="content">
+        <p>Name</p>
+        <div class="form-control-group">
+            <div class="form-control form-control-name">
+                <input type="text" id="name">
+            </div>
+        </div>
+                <p>Phone Number</p>
+        <div class="form-control-group">
+            <div class="form-control form-control-text">
+                <input type="text" id="phone">
+            </div>
+        </div>
+    </div>
+    <p>Email</p>
+    <div class="form-control-group">
+        <div class="form control form-control-email">
+            <input type="text" id="email">
+        </div>
+    </div>
+    <br>
+        <section class="data-capture-buttons">
+            <div class="content">
+                <input type="submit" value="Submit" onClick="javascript:addToCSVFile()">
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
